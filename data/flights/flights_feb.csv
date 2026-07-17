@@ -1,0 +1,5 @@
+year,month,day,origin,dest,dep_delay,arr_delay,cancelled
+2026,2,10,LAX,MIA,0,-10,0
+CORRUPT_RECORD_THIS_LINE_SHOULD_BE_RESCUED,9999,9999
+2026,2,11,JFK,LAX,30,25,0
+2026,2,12,ORD,DFW,10,,1

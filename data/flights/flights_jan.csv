@@ -1,0 +1,6 @@
+year,month,day,origin,dest,dep_delay,arr_delay,cancelled
+2026,1,15,MIA,LAX,15,10,0
+2026,1,15,JFK,LAX,5,-5,0
+2026,1,16,DFW,ORD,45,50,0
+2026,1,16,LAX,JFK,-2,0,0
+2026,1,17,MIA,ORD,120,115,0
