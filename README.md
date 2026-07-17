@@ -4,9 +4,8 @@ Este repositorio contiene la solución completa para la prueba técnica de Ingen
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
-Para facilitar la navegación del evaluador, el proyecto sigue una arquitectura limpia y modular:
 
 | Carpeta / Archivo | Descripción |
 | :--- | :--- |
@@ -18,7 +17,7 @@ Para facilitar la navegación del evaluador, el proyecto sigue una arquitectura 
 
 ---
 
-## 🛠️ Requisitos e Instalación ( •̀_•́ )
+##  Requisitos e Instalación ( •̀_•́ )
 
 > ⚠️ **Nota de configuración:** Se recomienda ejecutar este proyecto utilizando Python 3.10 o superior para garantizar la compatibilidad de todas las dependencias.
 
@@ -42,7 +41,7 @@ pip install -r requirements.txt
 
 ---
 
-## ⚙️ Ejecución de los Componentes
+##  Ejecución de los Componentes
 
 Puedes ejecutar y probar cada pieza del pipeline de forma independiente utilizando los siguientes comandos:
 
@@ -54,41 +53,41 @@ Puedes ejecutar y probar cada pieza del pipeline de forma independiente utilizan
 
 ---
 
-## 📝 Sección 5: Teoría ( ﾟ▽ﾟ)っ
+##  Sección 5: Teoría ( ﾟ▽ﾟ)っ
 
 A continuación se presenta el cuestionario teórico completo con las respuestas seleccionadas y sus respectivas justificaciones:
 
 ### 1. En Azure, la solución serverless que unifica SQL, Spark y Data Explorer para analítica a gran escala es:
 *   a) Azure SQL Database
-*   **b) Azure Synapse Analytics (serverless/ dedicated)** *(Respuesta Seleccionada)*
+*   **b) Azure Synapse Analytics (serverless/ dedicated)** 
 *   c) Azure Data Factory
 *   d) Azure Stream Analytics
-*   **Justificación:** Azure Synapse es la plataforma unificada de Microsoft que integra de manera nativa motores de almacenamiento SQL distribuidos, clústeres de Apache Spark y capacidades de exploración de datos en un solo servicio con esquemas de pago por consulta o dedicados.
+*   **Justificación:** Azure Synapse es la plataforma unificada de Microsoft que integra de manera nativa los motores de almacenamiento SQL distribuidos, clústeres de Apache Spark y capacidades de exploración de datos en un solo servicio con esquemas de pago por consulta o dedicados
 
 ### 2. En Data Factory / Synapse Pipelines, la actividad gráfica para transformaciones a escala sin escribir código es:
 *   a) HDInsight Spark
 *   b) Azure Databricks
-*   **c) Mapping Data Flows** *(Respuesta Seleccionada)*
+*   **c) Mapping Data Flows** 
 *   d) Azure Stream Analytics
-*   **Justificación:** Mapping Data Flows es la herramienta de diseño visual en Azure Data Factory que permite a los ingenieros de datos construir lógica de transformación compleja (ETL) gráficamente, la cual se traduce por debajo en código optimizado ejecutado sobre Spark de manera transparente.
+*   **Justificación:** Mapping Data Flows es la herramienta de diseño visual en Azure Data Factory que permite a los ingenieros de datos construir lógica de transformación compleja (ETL) gráficamente, la cual se traduce por debajo en código optimizado ejecutado sobre Spark de manera transparente
 
 ### 3. En Spark, la abstracción tolerante a fallos que permite procesamiento en memoria con transformaciones perezosas es:
 *   a) Apache Hadoop
 *   b) Apache Flink
 *   c) Spark Streaming
-*   **d) RDD** *(Respuesta Seleccionada)*
-*   **Justificación:** El RDD (Resilient Distributed Dataset) es la estructura de datos básica de Apache Spark. Es tolerante a fallos, se mantiene en memoria principal para un acceso ultrarrápido y evalúa sus transformaciones bajo el principio de evaluación perezosa (*lazy evaluation*).
+*   **d) RDD** 
+*   **Justificación:** El RDD (Resilient Distributed Dataset) es la estructura de datos básica de Apache Spark. Es tolerante a fallos, se mantiene en memoria principal para un acceso ultrarrápido y evalúa sus transformaciones bajo el principio de *lazy evaluation*
 
 ### 4. En Pandas, para eliminar filas duplicadas en un DataFrame se usa:
 *   a) df.groupby()
-*   **b) df.drop_duplicates()** *(Respuesta Seleccionada)*
+*   **b) df.drop_duplicates()**
 *   c) df.fillna()
 *   d) df.pivot_table()
-*   **Justificación:** El método `df.drop_duplicates()` es la función nativa que provee la librería de Pandas para rastrear e identificar filas repetidas en un DataFrame, eliminándolas de acuerdo a las columnas indicadas.
+*   **Justificación:** El método `df.drop_duplicates()` es la función nativa que provee la librería de Pandas para rastrear e identificar filas repetidas en un DataFrame, eliminándolas de acuerdo a las columnas indicadas
 
 ### 5. En Azure Databricks, ¿qué lenguaje se usa con mayor frecuencia para data engineering y notebooks (además de Python)?
 *   a) R
 *   b) Java
-*   **c) Scala** *(Respuesta Seleccionada)*
+*   **c) Scala** 
 *   d) C#
-*   **Justificación:** Dado que el motor de Apache Spark está escrito originalmente en Scala, este lenguaje ofrece la mejor integración, velocidad de procesamiento nativa y una adopción masiva junto a Python dentro de los notebooks empresariales de Azure Databricks.
+*   **Justificación:** Dado que el motor de Apache Spark está escrito originalmente en Scala, este lenguaje ofrece la mejor integración, velocidad de procesamiento nativa y una adopción masiva junto a Python dentro de los notebooks empresariales de Azure Databricks
