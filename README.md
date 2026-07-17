@@ -19,7 +19,7 @@ Este repositorio contiene la solución completa para la prueba técnica de Ingen
 
 ##  Requisitos e Instalación ( •̀_•́ )
 
-> ⚠️ **Nota de configuración:** Se recomienda ejecutar este proyecto utilizando Python 3.10 o superior para garantizar la compatibilidad de todas las dependencias.
+ **Nota de configuración:** Se recomienda ejecutar este proyecto utilizando Python 3.10 o superior para garantizar la compatibilidad de todas las dependencias.
 
 ### 1. Clonar el repositorio
 ```bash
